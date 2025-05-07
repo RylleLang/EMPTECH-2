@@ -1,3 +1,6 @@
+# Required dependencies:
+# pip install -r requirements.txt
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras import layers, models
@@ -83,5 +86,3 @@ def main():
     else:
         st.write("Or draw a digit on a white background and upload it.")
 
-if __name__ == "__main__":
-    main()
